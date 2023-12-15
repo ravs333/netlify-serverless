@@ -5,11 +5,7 @@ const axios = require('axios');
 const { error } = require("console");
   
 // Create Express Server 
-const app = express(); 
-  
-// Configuration 
-const PORT = 3000; 
-const HOST = "localhost";
+const app = express();
 
 app.get("/er_waittime", (request, response) => {
     response.send("Hi there, please pass the facility code...");
