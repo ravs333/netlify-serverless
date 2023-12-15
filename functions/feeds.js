@@ -11,7 +11,7 @@ const app = express();
 const PORT = 3000; 
 const HOST = "localhost";
 
-app.get("/feeds", (request, response) => {
+app.get("/er_waittime", (request, response) => {
     response.send("Hi there, please pass the facility code...");
 });
 
