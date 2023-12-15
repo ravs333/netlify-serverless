@@ -1,2 +1,12 @@
 [build]
   functions = "functions"
+
+[functions]
+  external_node_modules = ["express"]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  force = true
+  from = "/er_waittime/*"
+  status = 200
+  to = "/.netlify/functions/feeds/:faccodes"
