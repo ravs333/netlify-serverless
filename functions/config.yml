@@ -1,0 +1,11 @@
+server:
+  host: 127.0.0.1
+  port: 8080
+  timeout:
+    server: 30
+    read: 15
+    write: 10
+    idle: 5
+api:
+  url: "https://api.uhsinc.com/erwaittime/api/waittime?faccodes="
+  token: "LH6d4kj2L7alooOCw4w65UXuZ5rtZFIdZPaYe6Cw6ybBqL-2HzDc14KD56qyUvy9JzDK_Kb9BK1EPS7JkhassoEEolwf4tMOvjVOn_vSFlTwIk6_rheYVPMmfa0ek1CvNiu47ShmdKocxn4LMcgjZ2COh_9nls28ceWHPvdV4P77avb2jfph-3R1HB7vIUKt1CXLQZIpg4JpYivCyVgHEmnfuFxANJwPqvsQIG6DSOVQdTC9AGYXYqy-uKVIuKrLE3UjDVAKK--1Wz3rAHH34gD-yM8"
